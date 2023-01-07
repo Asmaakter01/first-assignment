@@ -1,0 +1,31 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url(images/banner/banner1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: end;
+    padding: 200px 300px;
+}
+
+.banner-title {
+    font-size: 74px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 20pxs;
+}
+
+.btn-primary {
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    padding: 25px 35px;
+    font-size: 30px;
+    border-radius: 5px;
+}
