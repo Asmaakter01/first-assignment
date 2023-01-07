@@ -2,6 +2,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
+/* banner styles */
+
 .header {
     background-image: url(images/banner/banner1.png);
     height: 500px;
@@ -22,10 +25,56 @@
 }
 
 .btn-primary {
-    background-color: brown;
+    background-color: lightsalmon;
     color: aliceblue;
     border: none;
     padding: 25px 35px;
     font-size: 30px;
     border-radius: 5px;
+}
+
+
+/* footer styles */
+
+.footer {
+    display: flex;
+    padding: 50px 100px;
+    background-color: black;
+}
+
+.future,
+.subscribe {
+    margin: 50px 250px;
+}
+
+.footer-title {
+    font-size: 50px;
+    color: white;
+}
+
+.footer-description {
+    color: #757575;
+}
+
+.subscribe-title {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+input[type="email"] {
+    padding: 15px 100px 15px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.footer-btn {
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    color: lightcoral;
+    font-size: 18px;
 }
