@@ -34,6 +34,96 @@
 }
 
 
+/* failures styles */
+
+.my-failure {
+    display: flex;
+    background-color: rgba(255, 160, 122, 0.103);
+}
+
+.img {
+    padding: 100px 100px 100px 300px;
+    /* background-color: rgba(255, 160, 122, 0.164); */
+}
+
+.failure {
+    padding-top: 300px;
+    padding-left: 200px;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.section-description {
+    color: #757575;
+    font-weight: 100;
+}
+
+.failure-list {
+    color: #757575;
+}
+
+
+/* plan styles */
+
+.my-plan {
+    display: flex;
+    justify-content: center;
+}
+
+.plan h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.plan1 {
+    margin-right: 100px;
+}
+
+.plan2 {
+    margin-right: 100px;
+}
+
+.plan3 {
+    margin-right: 100px;
+}
+
+.my-plan h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.my-plan p {
+    color: #757575;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+/* positive mindset */
+
+.positive-mindset {
+    background-image: url(images/watch.png), url(images/gradient2.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 1200px;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+    margin: 150px 400px;
+    border-radius: 5px;
+}
+
+.mindset-header {
+    color: white;
+    font-size: 35px;
+}
+
+
 /* footer styles */
 
 .footer {
